@@ -1,0 +1,35 @@
+[
+  {
+    "id": "60239342-2f39-4d8f-924d-4543a36aa311",
+    "data": [
+      {
+        "text": "Call my emergency contacts",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "b021b362-d4e4-4d62-9106-b0ed8b14771f",
+    "data": [
+      {
+        "text": "Alert my family",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "ce9d09f1-8d6f-48af-80c6-6c4678626354",
+    "data": [
+      {
+        "text": "Notify Family",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

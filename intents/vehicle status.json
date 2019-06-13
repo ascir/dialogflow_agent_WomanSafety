@@ -1,0 +1,40 @@
+{
+  "id": "91d7f511-6fae-456f-81bc-5b7e941da491",
+  "name": "vehicle status",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "formattedText": "No problems detected!",
+          "image": {
+            "url": "https://i.ibb.co/PrF6nQT/Capture.png",
+            "accessibilityText": "obd"
+          },
+          "buttons": []
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Your OBD status :"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

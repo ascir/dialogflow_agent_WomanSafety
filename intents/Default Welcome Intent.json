@@ -1,0 +1,65 @@
+{
+  "id": "f914dcb6-4958-421c-bb52-9168ec78ebb0",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Find Safe Route"
+            },
+            {
+              "title": "Help!"
+            },
+            {
+              "title": "Alert Authorities"
+            },
+            {
+              "title": "Notify Family"
+            },
+            {
+              "title": "Nearest Hotspots"
+            },
+            {
+              "title": "Notify People Around You"
+            },
+            {
+              "title": "Monitor Vehicle Health"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Welcome to Intrepede! How may I assist you today?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    },
+    {
+      "name": "GOOGLE_ASSISTANT_WELCOME"
+    }
+  ]
+}

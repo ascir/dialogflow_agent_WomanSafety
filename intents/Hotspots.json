@@ -1,0 +1,49 @@
+{
+  "id": "c3beda9c-2ce2-4526-907c-8959223bc17d",
+  "name": "Hotspots",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "title": "hotspots",
+          "subtitle": "Nearest police stations",
+          "image": {
+            "url": "https://i.ibb.co/pn86ZfX/hotspots.png",
+            "accessibilityText": "Maps"
+          },
+          "buttons": [
+            {
+              "title": "Get Directions",
+              "openUrlAction": {
+                "url": "https://www.google.com/maps/search/police+station+near+me",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Here are the nearby hotspots"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,50 @@
+{
+  "id": "7f5f26b2-202a-4324-92c8-6f9e7a3e350a",
+  "name": "Safe route",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "title": "",
+          "subtitle": "",
+          "formattedText": "Safest Route Home",
+          "image": {
+            "url": "https://files.slack.com/files-pri/TCF4C9JJD-FHG0B7G5S/capture2.jpg",
+            "accessibilityText": "Safe Route"
+          },
+          "buttons": [
+            {
+              "title": "Get Directions",
+              "openUrlAction": {
+                "url": "https://www.google.co.in/maps/@12.9291001,77.6249732,15z?hl\u003den",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "The safest route to your destination is as follows:"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

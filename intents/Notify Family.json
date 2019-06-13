@@ -1,0 +1,41 @@
+{
+  "id": "a996bb99-686c-40aa-a6a3-aa6215014907",
+  "name": "Notify Family",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "title": "",
+          "formattedText": "Message Sent Successfully!",
+          "image": {
+            "url": "https://banner2.kisspng.com/20180422/jle/kisspng-sms-text-messaging-computer-icons-iphone-message-vector-5adcd8d776f040.1800491715244228714872.jpg",
+            "accessibilityText": "Message"
+          },
+          "buttons": []
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Your coordinates have been sent to your emergency contacts."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

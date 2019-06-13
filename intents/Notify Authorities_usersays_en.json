@@ -1,0 +1,35 @@
+[
+  {
+    "id": "c5ea56e6-db28-4641-84b0-4de165bafc0c",
+    "data": [
+      {
+        "text": "Alert Authorities",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "cc13d15a-f4fb-4c1f-9b28-2696049660d1",
+    "data": [
+      {
+        "text": "Alert the police",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "6e2391cf-24c3-4eb5-9ee3-8f150909d67c",
+    "data": [
+      {
+        "text": "Call the police",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

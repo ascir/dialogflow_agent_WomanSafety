@@ -1,0 +1,68 @@
+{
+  "id": "fa672872-6eb8-434e-8ac0-0f0584730120",
+  "name": "Notify Authorities",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Choose the Action you would like to do:"
+        },
+        {
+          "type": "browse_carousel_card",
+          "platform": "google",
+          "lang": "en",
+          "items": [
+            {
+              "openUrlAction": {
+                "url": "https://www.ksp.gov.in/"
+              },
+              "optionInfo": {
+                "synonyms": []
+              },
+              "title": "SMS Authorities",
+              "image": {
+                "url": "https://i.gifer.com/7DcG.gif",
+                "accessibilityText": "sms"
+              }
+            },
+            {
+              "openUrlAction": {
+                "url": "http://indianhelpline.com/BANGALORE/"
+              },
+              "optionInfo": {
+                "synonyms": []
+              },
+              "title": "Call Authorities",
+              "image": {
+                "url": "https://banner2.kisspng.com/20180315/spe/kisspng-telephone-call-computer-icons-clip-art-animated-telephone-clipart-5aaa9732107a80.4243338615211292660675.jpg",
+                "accessibilityText": "call"
+              }
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Choose the Action you would like to do:"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "075d6734-e6f9-4598-8ed4-e586f06da992",
+  "name": "Help",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "image": {
+            "url": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcTL6hAdrx011CggHBY3XPJaja-wi9I4Lwnx_A-u2Iy4gtTN50qNSQ",
+            "accessibilityText": "help"
+          },
+          "buttons": []
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Your current coordinates have been sent to the nearby authorities. Help is on the way,"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

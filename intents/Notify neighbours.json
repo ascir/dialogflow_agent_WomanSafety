@@ -1,0 +1,40 @@
+{
+  "id": "b99e4d4c-691b-456f-8ba5-16f32d6d7e59",
+  "name": "Notify neighbours",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "image": {
+            "url": "https://cdn.iconscout.com/icon/premium/png-256-thumb/notification-142-647836.png",
+            "accessibilityText": "Notify"
+          },
+          "buttons": []
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Nearby Neighbors have been notified! Help is on the way."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true,
+        "facebook": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

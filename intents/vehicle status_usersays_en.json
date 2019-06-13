@@ -1,0 +1,35 @@
+[
+  {
+    "id": "5575987e-0855-4035-a0c9-0a36d48ad43f",
+    "data": [
+      {
+        "text": "Monitor Vehicle Health",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "4e3c89e4-d29d-47d1-8040-731498832c94",
+    "data": [
+      {
+        "text": "show me on board diagnostics of my vehicle",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "aa21a734-d0c5-483a-96ed-b0614d7f1bab",
+    "data": [
+      {
+        "text": "check my vehicle status",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

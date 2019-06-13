@@ -1,0 +1,24 @@
+[
+  {
+    "id": "ac872dd2-2008-4751-a9fd-30c34e5c765e",
+    "data": [
+      {
+        "text": "Nearby police stations",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "bd744caf-d2b5-4ed0-bcc2-9731806d6cc4",
+    "data": [
+      {
+        "text": "Nearest Hotspots",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]
