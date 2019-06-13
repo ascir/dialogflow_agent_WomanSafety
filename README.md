@@ -1,8 +1,7 @@
 # dialogflow_agent_WomanSafety
-This Agent was created on DialogFlow to be deployed on Google Assistant. It is a part of a woman safety application.
-* The app is invoked by speaking 
-*"Ok Google"
-
+This Agent was created on DialogFlow to be deployed on Google Assistant. It is a part of a woman safety application.<br />
+* The app is invoked by speaking <br />
+*"Ok Google"<br />
 "Talk to intrepide"* <br />
 -When logged in with the account used in Dialogflow. <br />
 Make sure to import this repo as a .zip file into your Dialogflow import tab under your agent Settings.<br />
