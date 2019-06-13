@@ -1,0 +1,71 @@
+{
+  "description": "Your Safety is our priority",
+  "language": "en",
+  "activeAssistantAgents": [],
+  "disableInteractionLogs": false,
+  "disableStackdriverLogs": true,
+  "googleAssistant": {
+    "googleAssistantCompatible": true,
+    "project": "intrepede-assist",
+    "welcomeIntentSignInRequired": true,
+    "startIntents": [
+      {
+        "intentId": "7f5f26b2-202a-4324-92c8-6f9e7a3e350a",
+        "signInRequired": true
+      },
+      {
+        "intentId": "a996bb99-686c-40aa-a6a3-aa6215014907",
+        "signInRequired": true
+      },
+      {
+        "intentId": "075d6734-e6f9-4598-8ed4-e586f06da992",
+        "signInRequired": true
+      },
+      {
+        "intentId": "91d7f511-6fae-456f-81bc-5b7e941da491",
+        "signInRequired": true
+      },
+      {
+        "intentId": "b99e4d4c-691b-456f-8ba5-16f32d6d7e59",
+        "signInRequired": true
+      },
+      {
+        "intentId": "c3beda9c-2ce2-4526-907c-8959223bc17d",
+        "signInRequired": true
+      },
+      {
+        "intentId": "fa672872-6eb8-434e-8ac0-0f0584730120",
+        "signInRequired": true
+      }
+    ],
+    "systemIntents": [],
+    "endIntentIds": [
+      "461d10d1-f5b7-4b6a-b554-113c103a1158"
+    ],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "protocolVersion": "V2",
+    "autoPreviewEnabled": true,
+    "isDeviceAgent": false
+  },
+  "defaultTimezone": "Asia/Almaty",
+  "webhook": {
+    "available": false,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": false,
+    "cloudFunctionsInitialized": false
+  },
+  "isPrivate": true,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": [],
+  "onePlatformApiVersion": "v2",
+  "analyzeQueryTextSentiment": false,
+  "enabledKnowledgeBaseNames": [],
+  "knowledgeServiceConfidenceAdjustment": -0.4,
+  "dialogBuilderMode": false
+}
